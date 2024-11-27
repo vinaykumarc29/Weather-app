@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman' ;
+}
+
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+
+header{
+    color: #03191E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.details{
+    width: fit-content;
+    margin: 10vmin;
+    font-size: 2rem;
+}
+
+.tempHistory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+
+.tempDeg1,.tempDeg2{
+     
+    word-spacing: 33px;
+}
+
+.tempTime1,.tempTime2{
+    
+    word-spacing: 39px;
+}
